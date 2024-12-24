@@ -3,6 +3,8 @@ This project is designed for performance testing using Locust, an open-source lo
 
 Locust docs - https://docs.locust.io/en/stable/
 
+## Setup
+
 1. Create a virtual environment (optional):
    ```bash
    python -m venv venv
