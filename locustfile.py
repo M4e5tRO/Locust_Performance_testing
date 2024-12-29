@@ -17,6 +17,7 @@ class BaseSequence(SequentialTaskSet):
     def get_load(self):
         with self.client.get(
             self.base_endpoint,
+            name=self.base_endpoint,
             headers=self.endpoint.headers,
             catch_response=True
         ) as response:
@@ -28,6 +29,7 @@ class BaseSequence(SequentialTaskSet):
         payload = random.choice(POST_DATA)
         with self.client.post(
             self.base_endpoint,
+            name=self.base_endpoint,
             json=payload,
             headers=self.endpoint.headers,
             catch_response=True
