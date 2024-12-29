@@ -22,7 +22,7 @@ Locust docs - https://docs.locust.io/en/stable/
 
 3. Run the performance tests with Locust:
     ```bash
-    locust --host https://restful-api.dev/
+    locust --host https://restful-api.dev
    
 4. Once the command is executed, open a browser and go to:
     ```text
